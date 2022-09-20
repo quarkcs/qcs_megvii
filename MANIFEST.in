@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include megvii_integration *.css
+recursive-include megvii_integration *.csv
+recursive-include megvii_integration *.html
+recursive-include megvii_integration *.ico
+recursive-include megvii_integration *.js
+recursive-include megvii_integration *.json
+recursive-include megvii_integration *.md
+recursive-include megvii_integration *.png
+recursive-include megvii_integration *.py
+recursive-include megvii_integration *.svg
+recursive-include megvii_integration *.txt
+recursive-exclude megvii_integration *.pyc

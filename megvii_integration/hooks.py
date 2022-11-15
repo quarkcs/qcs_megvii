@@ -89,13 +89,11 @@ app_license = "MIT"
 # ---------------
 # Hook on document methods and events
 
-# doc_events = {
-# 	"*": {
-# 		"on_update": "method",
-# 		"on_cancel": "method",
-# 		"on_trash": "method"
-#	}
-# }
+doc_events = {
+ 	"Megvii Devices": {
+ 		"validate": "megvii_integration.megvii_integration.doctype.megvii_devices.megvii_devices.megvi_action",
+	}
+ }
 
 # Scheduled Tasks
 # ---------------

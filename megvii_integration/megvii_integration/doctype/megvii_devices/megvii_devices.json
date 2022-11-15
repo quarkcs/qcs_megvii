@@ -1,0 +1,131 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "MGD-.####",
+ "creation": "2022-09-20 14:39:31.502700",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "device_location",
+  "device_url",
+  "column_break_3",
+  "device_username",
+  "device_password",
+  "section_break_6",
+  "salt",
+  "challenge",
+  "push_data_settings_section",
+  "api_url",
+  "column_break_11",
+  "server_actions"
+ ],
+ "fields": [
+  {
+   "fieldname": "device_location",
+   "fieldtype": "Data",
+   "label": "Device Location"
+  },
+  {
+   "fieldname": "device_url",
+   "fieldtype": "Data",
+   "label": "Device URL"
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "device_username",
+   "fieldtype": "Data",
+   "label": "Device Username"
+  },
+  {
+   "fieldname": "device_password",
+   "fieldtype": "Data",
+   "label": "Device Password"
+  },
+  {
+   "fieldname": "section_break_6",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "salt",
+   "fieldtype": "Data",
+   "label": "Salt"
+  },
+  {
+   "fieldname": "challenge",
+   "fieldtype": "Data",
+   "label": "Challenge"
+  },
+  {
+   "fieldname": "push_data_settings_section",
+   "fieldtype": "Section Break",
+   "label": "Push Data Settings"
+  },
+  {
+   "fieldname": "api_url",
+   "fieldtype": "Data",
+   "label": "API URL"
+  },
+  {
+   "fieldname": "column_break_11",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "server_actions",
+   "fieldtype": "Select",
+   "label": "Server Actions",
+   "options": "\nRead\nWrite"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-11-13 17:17:27.249124",
+ "modified_by": "Administrator",
+ "module": "Megvii Integration",
+ "name": "Megvii Devices",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Maintenance User",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "All",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
